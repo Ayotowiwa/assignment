@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+#welcomepage{    
+    padding: 110px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "welcome welcome"
+    "left right"
+    "signup signup"
+}
+#welcome{
+    grid-area: welcome;
+    justify-self:center;
+    padding-bottom: 40px;
+}
+#leftp{
+    grid-area: left;
+}
+#rightp{
+    grid-area: right;
+    padding-left:20px;
+}
+#signupp{
+    grid-area: signup;
+    position: relative;
+    left: 450px;
+    
+}
+#registration{
+    padding: 110px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "register create"
+}
+#register{
+    grid-area: register;
+}
+
+#CreatAcct{
+    grid-area: create;
+}
+.maintxt{
+    background-color: #229DE8 ;
+    height: 771px;
+}
+#text { position: relative;
+top: 233px;
+left: 142px;
+width: 622px;
+height: 225px;
+text-align: left;
+font-size: 55px;
+font-weight: bold;
+letter-spacing: 1px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+#sideimg img{ 
+    position: absolute;
+    float: right;
+top: 200px;
+left: 819px;
+width: 427px;
+height: 517px;
+opacity: 1;
+}
+
+#getstarted p{ position: absolute;
+    top: 600px;
+left: 142px;
+width: 254px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+border-radius: 10px;
+font-size:20px;
+font-weight: 500;
+color: #229DE8;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#google{ position: absolute;
+    top: 750px;
+left: 142px;
+width: 207px;
+height: 61px;
+
+}
+
+#apple{position: absolute;
+    top: 750px;
+left: 371px;
+width: 206px;
+height: 62px;
+}
+
+/* afterMain*/
+.afterMain{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 1179px;
+}
+.righttext{ position: absolute;
+    top: 1000px;
+    right: 110px;
+    width: 400px;
+}
+.txtcontent{
+    font-size: 30px;
+}
+h1{ font-weight: 500;
+    width: 400px;
+}
+.headtext{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: maroon;
+    font-weight: bold;
+}
+.simplified{position: absolute;
+    top: 1450px;
+    left:110px;
+    width: 400px;
+
+}
+.getstarted{font-weight: 500;
+    color: white;
+    background: #229DE8;
+    border-radius: 5px; 
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+}
+.image1 img{ position: absolute;
+    top: 950px;
+    left: 110px;
+    width: 467px;
+    height: 426px;
+}
+.image2 img{ position: absolute;
+    top: 1400px;
+    right: 110px;
+    width: 467px;
+    height: 426px;
+}
+
+/* End of after Main */
+
+/* start of blueMain*/
+ .blueMain{ color: white;
+    text-align: center;
+     background-color: #229DE8;
+     height: 300px;
+     padding-top: 100px;
+ }
+ .bmailimg{ height: 70px;
+       font-weight: 70px
+
+ }
+ #bmail1{ 
+     position: absolute;
+     left: 400px;
+     font-size: 30px;
+ }
+ #bmail2{
+     position: absolute;
+     right: 400px;
+     font-size: 30px;
+ }
+ /* end of blue main*/
+
+ /* WHiteMAind*/
+.whitemaind{
+    color:black;
+    text-align: center;
+    padding-top: 20px;
+    height: 300px;
+}
+#w{
+    font-weight: bold;
+    font-size: 20px;
+}
+#google2{ position: absolute;
+left: 550px;
+width: 206px;
+height: 61px;
+}
+#apple2{position: absolute;
+left: 800px;
+width: 206px;
+height: 62px;
+}
+ footer{
+     position: relative;
+     left:110px;
+     background-color:#229DE8;
+     border-top-left-radius: 40px;
+     border-top-right-radius: 40px;
+     width: 1400px;
+     height: 100px;
+     text-align: center;
+     color: white;
+ }
+
+ .footerlinks{
+     position: absolute;
+     left: 110px;
+     margin-top:10px;
+     padding: 20px;
+ }
+ .footerlogo{
+     position: absolute;
+     left: 600px;
+     margin-top: 10px;
+     padding: 20px;
+     word-spacing: 100px;
+ }
+ .date{
+     position: absolute;
+     right: 110px;
+     padding: 20px;
+ }
+
+ /* for oour plans page */
+.bodyplans{
+    margin-left: 110px;
+    height: 1200px;
+}
+.ourplans{
+     color:  #229DE8;
+     font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.cash{
+    font-size: 30px;
+    text-align: center;
+    padding-top:20px;
+    
+ }
+.box{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0px 6px 6px 0px #229DE8;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.titleD{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.seg{
+    background-color: #229DE8;
+       height: 150px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    text-align: center;
+}
+
+ol{
+    text-decoration: none;
+    list-style-type: circle;
+    padding-left: 100px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+text{
+    color: red;
+    font-weight: bold;
+}
+
+.get{
+    color: #229DE8;
+    border-top:1px solid #229DE8;
+    text-align: center;
+    padding-top: 40px;
+}
+#secbox{ position:absolute;
+    padding-top:0px;
+    left: 600px;
+    top: 290px;
+}

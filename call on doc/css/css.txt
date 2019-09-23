@@ -1,0 +1,20 @@
+For Main text
+top: 233px;
+left: 142px;
+width: 622px;
+height: 225px;
+text-align: left;
+font: SemiBold 55px/75px Nunito;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+
+For Phone Mockup
+top: 134px;
+left: 819px;
+width: 427px;
+height: 517px;
+background: transparent url('img/Phone.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+for 

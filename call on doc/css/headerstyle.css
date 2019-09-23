@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* * {
+    border: 1px solid blue;
+} */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{ position: relative;
+     background-color: #229DE8 ;
+    color: #ffffff;
+    height: 140px;
+}
+.contentH{
+    top: 33px;
+}
+a{
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+#logo{
+    position: relative;
+    left: 142.50px;
+    top:33px;
+    font-size: 40px;
+}
+
+a:hover, :visited{
+    color: white;
+}
+
+#links{
+    position: relative;
+    left: 900px;
+}
